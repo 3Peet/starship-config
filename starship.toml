@@ -1,9 +1,7 @@
 # ~/.config/starship.toml
-[line_break]
-disabled = true
 
 [character]
-success_symbol = "[➜](bold 112)"
+success_symbol = "[](196)[](82)[](51)"
 error_symbol = "[✖](bold 160)"
 
 [directory]
@@ -15,7 +13,7 @@ style = "bold 208"
 format = "[$symbol$branch]($style) "
 symbol = "/"
 style = "bold 99"
-truncation_length = 20
+truncation_length = 18
 
 [git_commit]
 commit_hash_length = 8
@@ -51,7 +49,7 @@ disabled = false
 format = '[󰎙 $version](bold 112) '
 
 [package]
-disabled = true
+format = 'via [🎁 $version](208 bold) '
 
 [time]
 time_format = "%T"
